@@ -7,27 +7,27 @@ public class Assignment {
 
     public void runConditions() {
         // Condition 1: Use comparison between number1 and number2
-        if ( /* Your condition here */ ) {
+        if ( number1 > number2 ) {
             System.out.println("First condition passed!");
         }
 
         // Condition 2: Convert text to integer and compare with number1
-        if ( /* Your condition here */ ) {
+        if ( Integer.parseInt(text) > number1 ) {
             System.out.println("Second condition passed!");
         }
 
         // Condition 3: Use decimal in a comparison
-        if ( /* Your condition here */ ) {
+        if ( number2 > decimal ) {
             System.out.println("Third condition passed!");
         }
 
         // Condition 4: Compare number2 cast to double with decimal
-        if ( /* Your condition here */ ) {
+        if ( Double.valueOf(number2) > decimal ) {
             System.out.println("Fourth condition passed!");
         }
 
         // Condition 5: Use multiple comparisons with AND operator
-        if ( /* Your condition here */ ) {
+        if ( number1 > number2 && number1 == number1 ) {
             System.out.println("Fifth condition passed!");
         }
     }
